@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Contact - BLOG A FACT{% endblock %}
+
+{% block content %}
+    <h1>Contact Us</h1>
+
+    <p>Whether you have a burning question, a story idea, or just want to say hi, your voice matters to us at BLOG A FACT.
+
+        Our blog thrives on community interaction, and we believe that the best conversations happen when we connect with our readers.
+        
+        Here’s how you can reach out:
+        
+        Drop Us a Line: Fill out the contact form below, and we'll get back to you faster than you can say “breaking news!” Whether you have feedback, suggestions, or inquiries, we’re all ears!
+        
+        Follow Us on Social Media: Stay updated with our latest posts and join the conversation on our social media platforms! Find us on:
+        
+        Twitter
+        Facebook
+        Instagram for news snippets, behind-the-scenes looks, and more.
+        Join Our Newsletter: Want the scoop delivered straight to your inbox? Subscribe to our newsletter for exclusive content, updates, and a sprinkle of fun directly from us to you! Subscribe Here
+        
+        At BLOG A FACT, we’re not just about sharing stories; we’re about building connections. So don’t be shy—reach out! Let’s start a conversation, share ideas, and make this community vibrant together.</p>
+
+    <h4>Get in Touch</h4>
+
+<p>We’d love to hear from you! Whether you have a burning question, a story idea, or just want to say hi, your voice matters to us at BLOG A FACT.</p>
+
+<!-- Include your existing content here -->
+
+<h4>Contact Form</h4>
+<form action="https://example.com/submit-form" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+    <input type="submit" value="Send Message">
+</form>
+
+{% endblock %}
