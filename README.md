@@ -51,7 +51,7 @@ A Django-powered news blog application developed from scratch using modern web t
 1. *Clone the repository*:
     bash
     git clone https://github.com/CarlyMakalela/News_blog.git
-    cd blog-a-fact
+    cd News_blog
     
 
 2. *Create a virtual environment* (optional but recommended):
